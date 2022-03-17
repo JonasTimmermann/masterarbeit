@@ -2,8 +2,6 @@
 from random import seed
 from random import random
 import math as m
-import scipy
-from scipy.stats import norm
 from random import randrange
 import quantumrandom 
 import numpy as np
@@ -15,6 +13,7 @@ import altair as alt
 import base64
 import xlsxwriter
 from io import BytesIO
+from scipy.stats import norm
 
 output = BytesIO()
 
