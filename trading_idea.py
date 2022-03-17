@@ -2,6 +2,7 @@
 from random import seed
 from random import random
 import math as m
+import scipy
 from scipy.stats import norm
 from random import randrange
 import quantumrandom 
